@@ -12,7 +12,7 @@
   </section>
 
   <br><br><h2>Tickets</h2>
-  <input type="submit" value="Add Ticket">
+  <a href="/tickets/<%= flight._id %>/new">Add Ticket</a>
   <% if (flight.tickets.length) { %>
     <table>
       <thead>
@@ -22,10 +22,10 @@
         </tr>
       </thead>
       <tbody>
-        <% flight.tickets.forEach(function(f) { %>
+        <% flight.tickets.forEach(function(t) { %>
           <tr>
-            <td><%= f.seat %></td>
-            <td><%= f.price %></td>
+            <td><%= t.seat %></td>
+            <td><%= t.price %></td>
           </tr>
         <% }); %>
       </tbody>
