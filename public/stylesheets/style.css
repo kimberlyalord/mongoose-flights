@@ -1,18 +1,94 @@
 body {
-  padding: 50px;
+  padding: 20px;
+  margin: 0 auto;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #CFF5F7;
+  color: #000F5B;
 }
 
 a {
-  color: #00B7FF;
+  color: #000F5B;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: start;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+nav {
+  background-color: #000F5B;
+  border: black solid 5px;
+  color: #CFF5F7;
+  font-size: 
+  width: 100%;
+  padding: 20px;
+  justify-items: right;
+  text-align: end;
+  justify-content: space-around;
+}
+
+.nav {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  justify-content: space-around;
+}
+
+#new-form {
+  display: grid;
+  margin: 50px 25%;
+  font-size: 16px;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, minmax(auto, 18rem));
 }
 
 label {
-  display: block;
-  font: 1rem 'Fira Sans', sans-serif;
+  font-weight: bold;
 }
 
-input,
-label {
-  margin: .4rem 0;
+select {
+  font-size: 12px;
+}
+
+#new-form input[type="submit"] {
+  font-size: 14px;
+  font-weight: bold;
+  border: black solid 1.2px;
+  border-radius: 5px;
+}
+
+#list {
+  background-color: aliceblue;
+  border: black solid 2px;
+  margin: 50px auto;
+  padding: 10px 20px;
+}
+
+#show-page {
+  margin: 50px 25% 0px 25%;
+  border: black solid 1.2px;
+  padding: 10px 10px;
+}
+
+#tickets {
+  text-align: center;
+}
+
+#destinations {
+  text-align: center;
+}
+
+#add-destination-form input[type="submit"] {
+  font-size: 14px;
+  font-weight: bold;
+  border: black solid 1.2px;
+  border-radius: 5px;
+}
+
+table {
+  margin: 50px 25%;
 }
